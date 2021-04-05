@@ -165,7 +165,7 @@ function Update()
 
 	if(RandomInteger(0, 10000) > 9700) 
 	{
-		objects.push(new Fish("images/piranha.png", RandomInteger(30, canvas.width - 50), RandomInteger(250, 400) * -1, false));
+		objects.push(new Fish("images/piranha.png", RandomInteger(30, canvas.width - 50), RandomInteger(500, 600) * -1, false));
 	}
 
 	player.Update();

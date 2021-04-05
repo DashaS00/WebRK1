@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Регистрация</title>
+		<link rel="stylesheet" href="form_style.css">
+	</head>
+	<body>
+<form action="action_page.php">
+  <div class="container">
+    <h1>Регистрация</h1>
+    <p>Заполните форму для регистрации</p>
+    <hr>
+    <label for="name"><b>Имя</b></label>
+    <input type="text" placeholder="Введите Имя" name="name" required>
+   
+    <label for="surname"><b>Фамилия</b></label>
+    <input type="text" placeholder="Введите Фамилию" name="surname" required>
+ 
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="login"><b>Логин</b></label>
+    <input type="text" placeholder="Придумайте Логин" name="login" required>
+
+    <label for="psw"><b>Пароль</b></label>
+    <input type="password" placeholder="Придумайте пароль" name="psw" required>
+
+    <label for="psw-repeat"><b>Повторите пароль</b></label>
+    <input type="password" placeholder="Введите пароль еще раз" name="psw-repeat" required>
+    <hr>
+
+    <button type="submit" class="registerbtn">Зарегистрироваться</button>
+  </div>
+
+  <div class="container signin">
+    <p>Уже есть аккаунт? <a href="#">Войти</a>.</p>
+  </div>
+</form>
+	</body>
+</html>
+
